@@ -1,0 +1,156 @@
+{
+  "identification": {
+    "receipt_id": "8f4e2b1a-9c3d-4e5f-a1b2-c3d4e5f6a7b8",
+    "receipt_number": "BMX-GAB-2026-000142",
+    "receipt_type": "NEGOTIABLE",
+    "status": "ISSUED",
+    "issuance_date": "2026-04-12T09:30:00Z"
+  },
+  "parties": {
+    "depositor": {
+      "depositor_id": "1a2b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d",
+      "depositor_legal_name": "Kweneng Grain Growers Cooperative",
+      "depositor_national_id": "BW-CIPA-2019-004512",
+      "depositor_contact": {
+        "phone": "+26771234567",
+        "email": "ops@kwenenggrain.co.bw",
+        "physical_address": "Plot 442, Molepolole, Kweneng District, Botswana"
+      }
+    },
+    "warehouse_operator": {
+      "warehouse_operator_id": "0f9e8d7c-6b5a-4938-8271-6a5b4c3d2e1f",
+      "warehouse_operator_legal_name": "BMX Vault (Gaborone) (Pty) Ltd",
+      "warehouse_operator_licence": "DMCC-GGDS-2026-BW-0001"
+    },
+    "current_holder": {
+      "current_holder_id": "1a2b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d",
+      "current_holder_type": "PRODUCER"
+    },
+    "third_party_claims": []
+  },
+  "commodity": {
+    "commodity_category": "AGRICULTURAL",
+    "commodity_type": "MAIZE_WHITE",
+    "commodity_grade": "SADC-GRADE-1",
+    "quantity": 50000,
+    "unit_of_measure": "KG",
+    "quality_parameters": {
+      "moisture_percent": 12.5,
+      "aflatoxin_ppb": 4,
+      "broken_grains_percent": 1.2,
+      "foreign_matter_percent": 0.4
+    },
+    "quality_inspection_certificate": "SGS-BW-2026-04-00189",
+    "quality_inspection_date": "2026-04-11T14:00:00Z"
+  },
+  "origin": {
+    "origin_farm_id": "5c4b3a2d-1e0f-9a8b-7c6d-5e4f3a2b1c0d",
+    "origin_coordinates": {
+      "type": "Point",
+      "coordinates": [25.6789, -24.4567]
+    },
+    "origin_district": "Kweneng District, Botswana",
+    "harvest_or_extraction_date": "2026-03-20T06:00:00Z",
+    "producer_type": "SMALLHOLDER",
+    "sustainability_certifications": ["SADC-FAIR-TRADE"],
+    "economic_impact_data": {
+      "employment_count": 84,
+      "community_benefit_notes": "Cooperative profit-share among 84 registered members",
+      "royalty_payments": "0.00",
+      "royalty_currency": "BWP"
+    },
+    "chain_of_custody": [
+      {
+        "event_type": "HARVEST",
+        "timestamp": "2026-03-20T06:00:00Z",
+        "actor_id": "1a2b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d",
+        "actor_name": "Kweneng Grain Growers Cooperative",
+        "location": "Molepolole, Kweneng",
+        "geo": { "type": "Point", "coordinates": [25.6789, -24.4567] }
+      },
+      {
+        "event_type": "AGGREGATION",
+        "timestamp": "2026-03-25T10:00:00Z",
+        "actor_id": "1a2b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d",
+        "actor_name": "Kweneng Grain Growers Cooperative",
+        "location": "Cooperative Silo, Molepolole"
+      },
+      {
+        "event_type": "TRANSPORT",
+        "timestamp": "2026-04-10T07:30:00Z",
+        "actor_id": "6d5c4b3a-2e1f-0a9b-8c7d-6e5f4a3b2c1d",
+        "actor_name": "Botswana Rail Logistics",
+        "location": "Molepolole → Gaborone corridor"
+      },
+      {
+        "event_type": "VAULT_INTAKE",
+        "timestamp": "2026-04-12T09:15:00Z",
+        "actor_id": "0f9e8d7c-6b5a-4938-8271-6a5b4c3d2e1f",
+        "actor_name": "BMX Vault (Gaborone)",
+        "location": "BMX Vault, Gaborone, Botswana"
+      }
+    ]
+  },
+  "vault": {
+    "vault_id": "7a8b9c0d-1e2f-3a4b-5c6d-7e8f9a0b1c2d",
+    "vault_location": {
+      "name": "BMX Vault Gaborone",
+      "address": "Plot 12058, Gaborone West Industrial",
+      "city": "Gaborone",
+      "country": "Botswana"
+    },
+    "storage_location_detail": "Silo Block A, Bin 12",
+    "storage_start_date": "2026-04-12T09:30:00Z",
+    "storage_fee_rate": "18.50",
+    "insurance_policy_number": "BIHL-AGRI-2026-04412",
+    "insured_value": "185000.00",
+    "vault_conditions": {
+      "temperature_celsius": 22,
+      "humidity_percent": 55,
+      "security_classification": "CLASS-A-AGRICULTURAL",
+      "shelf_life_days": 365
+    },
+    "ggds_certification_status": "CERTIFIED",
+    "ggds_certificate_number": "GGDS-2026-GAB-0001"
+  },
+  "valuation": {
+    "reference_price": "3700.00",
+    "reference_price_currency": "BWP",
+    "reference_price_date": "2026-04-12T09:30:00Z",
+    "collateral_valuation_coefficient": "0.85",
+    "loan_to_value_ratio": "3145.00"
+  },
+  "pledge": {
+    "pledge_status": "UNPLEDGED"
+  },
+  "tokenisation": {
+    "tokenisation_status": "NOT_TOKENISED",
+    "shariah_compliance_flag": false
+  },
+  "transfer": {
+    "transfer_history": [
+      {
+        "transfer_type": "ISSUANCE",
+        "from_holder_id": null,
+        "to_holder_id": "1a2b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d",
+        "timestamp": "2026-04-12T09:30:00Z"
+      }
+    ],
+    "negotiation_type": "ENDORSEMENT"
+  },
+  "audit": {
+    "created_at": "2026-04-12T09:30:00Z",
+    "last_updated_at": "2026-04-12T09:30:00Z",
+    "digital_signature": "MEUCIQDx4f9a2b1c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e",
+    "signature_algorithm": "ECDSA-secp256k1",
+    "audit_log": [
+      {
+        "timestamp": "2026-04-12T09:30:00Z",
+        "actor_id": "0f9e8d7c-6b5a-4938-8271-6a5b4c3d2e1f",
+        "action": "RECEIPT_ISSUED",
+        "previous_state_hash": "0000000000000000000000000000000000000000000000000000000000000000"
+      }
+    ],
+    "document_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}
